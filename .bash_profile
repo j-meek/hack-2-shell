@@ -1,4 +1,4 @@
-alias ll='ls -l'
+alias ll='ls -lhF'
 
 # added by Miniconda3 installer
 # export PATH="/Users/jaredmeek/miniconda3/bin:$PATH"  # commented out by conda initialize
@@ -20,11 +20,9 @@ fi
 unset __conda_setup
 # <<< conda init <<<
 
-alias ll='ls -lF'
-
 export DYLD_LIBRARY_PATH=/Users/jaredmeek/miniconda3/envs/eems/lib
 
-#PS1="@jmeek-laptop> "
+PS1="@jmeek$ "
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
