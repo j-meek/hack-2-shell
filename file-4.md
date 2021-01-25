@@ -1,1 +1,1 @@
-easy peazy
+easy peasy
